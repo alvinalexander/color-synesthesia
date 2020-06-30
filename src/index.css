@@ -1,17 +1,44 @@
-.chart div {
-  font: 10px sans-serif;
-  background-color: steelblue;
-  text-align: right;
-  padding: 3px;
-  margin: 1px;
+body{
+  background-color: black;
+}
+h1,p{
+  font-family: Arial, Helvetica, sans-serif;
   color: white;
 }
-.chart rect {
-  fill: steelblue;
+
+#checkbox-title{
+  display: inline;
+}
+.container{
+  padding: 2em 0;
+  margin: 1em auto;
+  width: 70%;
 }
 
-.chart text {
-  fill: white;
-  font: 10px sans-serif;
-  text-anchor: end;
+.window{
+  margin: 1em auto;
+}
+
+.color-blocks{
+  padding: 0;
+}
+
+.color-block{
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  padding: 5px;
+  margin-right: 0.5em;
+  margin-bottom: 1em;
+  font-size: 1.5em;
+  text-anchor: middle;
+  text-align: center;
+}
+
+.show-text{
+  color: white;
+  background-color: transparent;
+}
+.hide-text{
+  color: transparent;
 }
